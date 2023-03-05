@@ -1,0 +1,33 @@
+// Okta fontfaces
+@font-face {
+    font-family: Okta;
+    src: url("@/assets/fonts/OktaNeue-Normal.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Okta;
+    src: url("@/assets/fonts/OktaNeue-NormalItalic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Okta;
+    src: url("@/assets/fonts/OktaNeue-Black.ttf");
+    font-weight: 800;
+}
+
+// Cascadia code fontfaces
+@font-face {
+    font-family: Cascadia Code;
+    src: url("@/assets/fonts/CascadiaCode.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cascadia Code;
+    src: url("@/assets/fonts/CascadiaCodeItalic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}

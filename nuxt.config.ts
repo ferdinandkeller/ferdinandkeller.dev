@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
     ],
-    content: {
-        // https://content.nuxtjs.org/api/configuration
-    }
+    css: [
+        '@/assets/fontfaces.scss',
+        '@/assets/style.scss'
+    ]
 })

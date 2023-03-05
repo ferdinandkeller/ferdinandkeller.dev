@@ -9,6 +9,10 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.4.3",
-    "nuxt": "^3.2.3"
+    "nuxt": "^3.2.3",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "highlight.js": "^11.7.0"
   }
 }
