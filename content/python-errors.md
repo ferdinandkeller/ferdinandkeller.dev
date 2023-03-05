@@ -17,3 +17,7 @@ def awesome_typed_method(cool_number: int) -> str:
 ```
 
 What happens here is that when I will try to reuse this method, I will have no way to know if it might raise an exception or not.
+
+So you what you do at the end is a mix of:
+- time-consuming code exploration to make sure you catched all the possible exceptions of all the methods you use
+- top-level error catching to make your entire service doesn't shutdown unexpectedly because you forgot something
