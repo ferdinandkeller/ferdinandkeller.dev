@@ -1,0 +1,3 @@
+<template>
+    <p>Error 404 : page not found</p>
+</template>
