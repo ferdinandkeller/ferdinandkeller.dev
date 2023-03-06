@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+        <div class="header-filler"></div>
         <header>
             <div class="navbar">
                 <NuxtLink to="/">Home</NuxtLink>
@@ -9,104 +10,6 @@
         </header>
 
         <main>
-            <!-- <div class="spacer">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod placeat similique inventore debitis
-                    dolores
-                    sint perspiciatis pariatur, recusandae voluptate sit possimus cum veritatis tempore esse quisquam sunt
-                    labore eveniet tempora dolor dignissimos deserunt atque vitae repudiandae? Laudantium, facere in culpa
-                    adipisci quidem sit vel eaque aliquam porro eveniet ut voluptatem soluta dolor voluptates nisi hic
-                    laboriosam quos quasi ea, quam aspernatur debitis, commodi quae blanditiis? Numquam corporis, aliquam
-                    voluptate, culpa officiis laudantium non, sequi ipsa quaerat ex nemo sit. Voluptatibus dolores, enim
-                    dolore
-                    nesciunt necessitatibus odit quos quae? Aperiam ad at accusamus commodi recusandae sapiente dolores unde
-                    quisquam eveniet nulla quibusdam numquam iste, aliquam molestias saepe distinctio. Beatae cupiditate
-                    ipsam
-                    nihil. Facilis nesciunt qui laboriosam nisi, quo, inventore consequuntur debitis tenetur dignissimos
-                    praesentium impedit provident fugiat vitae soluta cum voluptatibus labore! Ab quibusdam error
-                    repellendus
-                    consequuntur ullam inventore sint. Illo magni eveniet quisquam consequatur incidunt magnam facere totam
-                    nemo, fugit dicta. Nostrum distinctio consequuntur laudantium explicabo. Quaerat a dolore quod facere
-                    consequatur in itaque repudiandae, hic illum ipsam, rerum omnis! Ab inventore corrupti dolores, atque
-                    autem
-                    praesentium quos cumque delectus culpa incidunt quia fugit similique cum modi exercitationem quidem
-                    rerum
-                    dolore quis non sed eaque accusamus reprehenderit quae asperiores? Asperiores delectus ex unde officiis,
-                    dignissimos repellendus dicta odio! Possimus inventore veritatis ex animi totam facere voluptatum ad
-                    officiis aliquid dicta qui facilis quia obcaecati, et similique hic quisquam sit ut accusantium
-                    excepturi
-                    eveniet rerum quis perferendis quasi. Asperiores quo praesentium quas quidem ab natus distinctio aperiam
-                    esse qui non iste nulla dolorum perferendis autem incidunt, id molestias, voluptatum fuga enim facilis
-                    adipisci consequuntur! Sunt illum aspernatur repellendus, corporis labore voluptas culpa, minima,
-                    adipisci
-                    quam nobis voluptatem illo rerum perferendis totam aliquam reiciendis. Facere quos blanditiis sapiente
-                    repellat impedit eveniet culpa labore, soluta, sint explicabo exercitationem ipsum perspiciatis?
-                    Distinctio,
-                    doloribus optio.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod placeat similique inventore debitis
-                    dolores
-                    sint perspiciatis pariatur, recusandae voluptate sit possimus cum veritatis tempore esse quisquam sunt
-                    labore eveniet tempora dolor dignissimos deserunt atque vitae repudiandae? Laudantium, facere in culpa
-                    adipisci quidem sit vel eaque aliquam porro eveniet ut voluptatem soluta dolor voluptates nisi hic
-                    laboriosam quos quasi ea, quam aspernatur debitis, commodi quae blanditiis? Numquam corporis, aliquam
-                    voluptate, culpa officiis laudantium non, sequi ipsa quaerat ex nemo sit. Voluptatibus dolores, enim
-                    dolore
-                    nesciunt necessitatibus odit quos quae? Aperiam ad at accusamus commodi recusandae sapiente dolores unde
-                    quisquam eveniet nulla quibusdam numquam iste, aliquam molestias saepe distinctio. Beatae cupiditate
-                    ipsam
-                    nihil. Facilis nesciunt qui laboriosam nisi, quo, inventore consequuntur debitis tenetur dignissimos
-                    praesentium impedit provident fugiat vitae soluta cum voluptatibus labore! Ab quibusdam error
-                    repellendus
-                    consequuntur ullam inventore sint. Illo magni eveniet quisquam consequatur incidunt magnam facere totam
-                    nemo, fugit dicta. Nostrum distinctio consequuntur laudantium explicabo. Quaerat a dolore quod facere
-                    consequatur in itaque repudiandae, hic illum ipsam, rerum omnis! Ab inventore corrupti dolores, atque
-                    autem
-                    praesentium quos cumque delectus culpa incidunt quia fugit similique cum modi exercitationem quidem
-                    rerum
-                    dolore quis non sed eaque accusamus reprehenderit quae asperiores? Asperiores delectus ex unde officiis,
-                    dignissimos repellendus dicta odio! Possimus inventore veritatis ex animi totam facere voluptatum ad
-                    officiis aliquid dicta qui facilis quia obcaecati, et similique hic quisquam sit ut accusantium
-                    excepturi
-                    eveniet rerum quis perferendis quasi. Asperiores quo praesentium quas quidem ab natus distinctio aperiam
-                    esse qui non iste nulla dolorum perferendis autem incidunt, id molestias, voluptatum fuga enim facilis
-                    adipisci consequuntur! Sunt illum aspernatur repellendus, corporis labore voluptas culpa, minima,
-                    adipisci
-                    quam nobis voluptatem illo rerum perferendis totam aliquam reiciendis. Facere quos blanditiis sapiente
-                    repellat impedit eveniet culpa labore, soluta, sint explicabo exercitationem ipsum perspiciatis?
-                    Distinctio,
-                    doloribus optio.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod placeat similique inventore debitis
-                    dolores
-                    sint perspiciatis pariatur, recusandae voluptate sit possimus cum veritatis tempore esse quisquam sunt
-                    labore eveniet tempora dolor dignissimos deserunt atque vitae repudiandae? Laudantium, facere in culpa
-                    adipisci quidem sit vel eaque aliquam porro eveniet ut voluptatem soluta dolor voluptates nisi hic
-                    laboriosam quos quasi ea, quam aspernatur debitis, commodi quae blanditiis? Numquam corporis, aliquam
-                    voluptate, culpa officiis laudantium non, sequi ipsa quaerat ex nemo sit. Voluptatibus dolores, enim
-                    dolore
-                    nesciunt necessitatibus odit quos quae? Aperiam ad at accusamus commodi recusandae sapiente dolores unde
-                    quisquam eveniet nulla quibusdam numquam iste, aliquam molestias saepe distinctio. Beatae cupiditate
-                    ipsam
-                    nihil. Facilis nesciunt qui laboriosam nisi, quo, inventore consequuntur debitis tenetur dignissimos
-                    praesentium impedit provident fugiat vitae soluta cum voluptatibus labore! Ab quibusdam error
-                    repellendus
-                    consequuntur ullam inventore sint. Illo magni eveniet quisquam consequatur incidunt magnam facere totam
-                    nemo, fugit dicta. Nostrum distinctio consequuntur laudantium explicabo. Quaerat a dolore quod facere
-                    consequatur in itaque repudiandae, hic illum ipsam, rerum omnis! Ab inventore corrupti dolores, atque
-                    autem
-                    praesentium quos cumque delectus culpa incidunt quia fugit similique cum modi exercitationem quidem
-                    rerum
-                    dolore quis non sed eaque accusamus reprehenderit quae asperiores? Asperiores delectus ex unde officiis,
-                    dignissimos repellendus dicta odio! Possimus inventore veritatis ex animi totam facere voluptatum ad
-                    officiis aliquid dicta qui facilis quia obcaecati, et similique hic quisquam sit ut accusantium
-                    excepturi
-                    eveniet rerum quis perferendis quasi. Asperiores quo praesentium quas quidem ab natus distinctio aperiam
-                    esse qui non iste nulla dolorum perferendis autem incidunt, id molestias, voluptatum fuga enim facilis
-                    adipisci consequuntur! Sunt illum aspernatur repellendus, corporis labore voluptas culpa, minima,
-                    adipisci
-                    quam nobis voluptatem illo rerum perferendis totam aliquam reiciendis. Facere quos blanditiis sapiente
-                    repellat impedit eveniet culpa labore, soluta, sint explicabo exercitationem ipsum perspiciatis?
-                    Distinctio,
-                    doloribus optio.</p>
-            </div> -->
             <slot />
         </main>
 
@@ -125,10 +28,65 @@
     flex-direction: column;
     min-height: 100vh;
 
-    header {}
+    .header-filler {
+        width: 100%;
+        height: 6rem;
+    }
+
+    header {
+        height: 6rem;
+        padding: 0 3em;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        user-select: none;
+        position: fixed;
+        backdrop-filter: blur(8px) brightness(.5);
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+
+            a {
+                font-weight: 800;
+                position: relative;
+
+                &:not(:last-child) {
+                    margin-right: 3em;
+                }
+
+                // &::after {
+                //     content: "";
+                //     position: absolute;
+                //     --w: 10px;
+                //     width: var(--w);
+                //     left: calc(50% - var(--w) / 2);
+                //     bottom: 0;
+                //     height: 3px;
+                //     background-color: white;
+                //     border-radius: .2px;
+                //     transition: width .2s ease-out, left .2s ease-out;
+                // }
+
+                &:hover {
+                    cursor: pointer;
+
+                    // &::after {
+                    //     width: 100%;
+                    //     left: 0;
+                    // }
+                }
+            }
+        }
+    }
 
     main {
         flex-grow: 1;
+        padding: 0 5em;
     }
 
     footer {
