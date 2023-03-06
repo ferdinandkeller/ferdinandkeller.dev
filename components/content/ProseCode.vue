@@ -1,5 +1,8 @@
 <template>
-    <pre><code v-html="code_html" /></pre>
+    <div class="codeblock">
+        <div v-if="props.language !== null" class="language">{{ props.language }}</div>
+        <pre><code v-html="code_html" /></pre>
+    </div>
 </template>
 
 <script lang="ts" setup>
@@ -33,14 +36,30 @@ let code_html = props.language !== null ? hljs.highlight(props.code, { language:
 </script>
 
 <style lang="scss">
-pre {
+.codeblock {
     margin: 0 4em;
     padding: 1em 1.5em;
-    border: solid 2px rgb(30, 30, 30);
+    border: solid 1.5px rgb(40, 40, 40);
     border-radius: 5px;
+    background-color: #0e0e10;
+    position: relative;
+
+    .language {
+        position: absolute;
+        bottom: 0;
+        right: 1em;
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: rgb(40, 40, 40);
+        user-select: none;
+    }
 }
 
-code {
-    white-space: pre;
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
+
+code {}
 </style>
