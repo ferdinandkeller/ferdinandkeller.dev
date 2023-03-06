@@ -46,6 +46,7 @@
         top: 0;
         left: 0;
         border-bottom: 1px solid rgba(255, 255, 255, .1);
+        z-index: 10;
 
         .navbar {
             display: flex;
@@ -94,6 +95,7 @@
         justify-content: right;
         font-size: 1.2rem;
         padding: 1em 2em;
+        margin-top: 3em;
 
         .note {
             display: flex;
