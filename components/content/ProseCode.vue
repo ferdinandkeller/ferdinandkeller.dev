@@ -33,15 +33,14 @@ let code_html = props.language !== null ? hljs.highlight(props.code, { language:
 </script>
 
 <style lang="scss">
-pre code {
-    display: block;
+pre {
+    margin: 0 4em;
+    padding: 1em 1.5em;
+    border: solid 2px rgb(30, 30, 30);
+    border-radius: 5px;
 }
 
 code {
     white-space: pre;
-}
-
-span.hljs-string {
-    background: transparent;
 }
 </style>
