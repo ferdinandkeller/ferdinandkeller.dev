@@ -10,9 +10,10 @@
       <div class="nice-circle-6"></div>
     </div>
     <h1>Hi, my name is Ferdinand</h1>
-    <p>I'm a datascientist and AI engineer at <NuxtLink to="https://caregame.com" target="blank">CareGame</NuxtLink>.</p>
-    <p>I like to solve problems and break things. I'm also a huge Rust fan 🦀.</p>
-    <p>Don't hesitate to contact me, even if it's just to say hi 👋 (especially if you also like rust).</p>
+    <p>I'm a datascientist and AI engineer at <NuxtLink to="https://caregame.com" target="blank">CareGame</NuxtLink>. I
+      like to solve problems. I'm also a huge <NuxtLink to="https://www.rust-lang.org" target="blank">
+        Rust</NuxtLink> fan 🦀. Don't hesitate to contact me, even if it's
+      just to say hi 👋</p>
   </div>
 </template>
 
@@ -88,6 +89,11 @@
 .home {
   height: 100%;
   margin-top: 20rem;
-  width: 60%;
+  width: 60rem;
+  font-size: 1.8rem;
+
+  h1 {
+    margin-bottom: 1em;
+  }
 }
 </style>
