@@ -6,8 +6,9 @@
 </template>
 
 <script lang="ts" setup>
-import hljs from 'highlight.js'
+import hljs from 'highlight.js/lib/common'
 import 'highlight.js/styles/base16/black-metal-dark-funeral.css'
+import generateId from '@/utils/generateId'
 
 const props = defineProps({
     code: {
@@ -32,7 +33,9 @@ const props = defineProps({
     }
 })
 
-let code_html = props.language !== null ? hljs.highlight(props.code, { language: props.language }).value : props.code
+let code_html = useState(generateId(), () => {
+    return props.language !== null ? hljs.highlight(props.code, { language: props.language }).value : props.code
+})
 </script>
 
 <style lang="scss">
@@ -51,8 +54,9 @@ let code_html = props.language !== null ? hljs.highlight(props.code, { language:
         font-size: 1.2rem;
         font-weight: 800;
         text-transform: uppercase;
-        color: rgb(40, 40, 40);
+        color: hsl(0, 0%, 30%);
         user-select: none;
+        cursor: default;
     }
 }
 

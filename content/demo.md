@@ -1,5 +1,10 @@
-An h1 header
-============
+---
+title: This is a very long title, like veeeeery long, only for testing purposes, but still long
+description: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum cumque earum necessitatibus ad soluta expedita voluptatum harum repudiandae neque animi temporibus rerum in, officia veniam consequatur rem aut.
+published_at: 2023-01-01
+---
+
+# An h1 header that means stuff
 
 Paragraphs are separated by a blank line.
 
