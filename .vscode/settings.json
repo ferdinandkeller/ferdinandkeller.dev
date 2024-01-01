@@ -12,5 +12,6 @@
     "**/.next": true,
     "**/*.d.ts": true,
     "**/yarn.lock": true
-  }
+  },
+  "editor.formatOnPaste": true
 }
