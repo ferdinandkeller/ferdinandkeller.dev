@@ -1,4 +1,3 @@
-import { fontFamily } from "tailwindcss/defaultTheme"
 import type { Config } from "tailwindcss"
 
 const config: Config = {
@@ -16,9 +15,6 @@ const config: Config = {
       }
     },
     extend: {
-      fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans]
-      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
