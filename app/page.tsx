@@ -64,10 +64,9 @@ export default () => {
   return (
     <>
       {/* centered contend */}
-      <main className="mx-auto flex min-h-screen max-w-screen-sm flex-col px-5 font-mono tracking-tight text-slate-900">
+      <main className="mx-auto flex max-w-screen-sm flex-col px-5 font-mono tracking-tight text-slate-900">
         {/* growing section */}
-        {/* <div className="flex-grow"> */}
-        <div className="">
+        <div>
           {/* whoami */}
           <div className="mb-16 mt-20 md:mt-32">
             <h1 className="mb-1 text-2xl font-bold lowercase leading-none">
