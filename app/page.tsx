@@ -49,7 +49,7 @@ export default () => {
           {content.map((element, key) => (
             <li key={key}>
               <Link href={element.link} target="_blank">
-                {element.title}
+                › {element.title}
               </Link>
               {element.description && (
                 <div className="text-slate-400">{element.description}</div>
@@ -66,7 +66,8 @@ export default () => {
       {/* centered contend */}
       <main className="mx-auto flex min-h-screen max-w-screen-sm flex-col px-5 font-mono tracking-tight text-slate-900">
         {/* growing section */}
-        <div className="flex-grow">
+        {/* <div className="flex-grow"> */}
+        <div className="">
           {/* whoami */}
           <div className="mb-16 mt-20 md:mt-32">
             <h1 className="mb-1 text-2xl font-bold lowercase leading-none">
@@ -83,7 +84,7 @@ export default () => {
         </div>
 
         {/* footer details */}
-        <footer className="mb-4 text-xs font-light leading-5 text-slate-400">
+        <footer className="fixed bottom-0 mb-4 text-xs font-light leading-5 text-slate-400">
           code available on{" "}
           <Link
             href="https://github.com/ferdinandkeller/ferdinandkeller.dev"
