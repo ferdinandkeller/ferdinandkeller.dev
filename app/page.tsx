@@ -68,11 +68,11 @@ export default () => {
         {/* growing section */}
         <div>
           {/* whoami */}
-          <div className="mb-16 mt-20 md:mt-32">
-            <h1 className="mb-1 text-2xl font-bold lowercase leading-none">
+          <div className="mt-20 mb-16 md:mt-32">
+            <h1 className="mb-1 text-2xl leading-none font-bold lowercase">
               Ferdinand Keller
             </h1>
-            <p className="font-light">ai engineer</p>
+            <p className="font-light">data & ai engineer</p>
           </div>
 
           {/* projects */}
