@@ -10,7 +10,7 @@
     "prettier": "prettier --write ."
   },
   "engines": {
-    "node": "^25.0.0"
+    "node": "^24.0.0"
   },
   "dependencies": {
     "@radix-ui/react-hover-card": "^1.0.7",
