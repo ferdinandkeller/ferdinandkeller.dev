@@ -83,8 +83,8 @@ export default () => {
         </div>
 
         {/* footer details */}
-        <footer className="fixed bottom-0 mb-4 text-xs font-light leading-5 text-slate-400">
-          code available on{" "}
+        <footer className="fixed bottom-0 mb-4 text-xs leading-5 font-light text-slate-400">
+          © ferdinand keller {new Date().getFullYear()} — code available on{" "}
           <Link
             href="https://github.com/ferdinandkeller/ferdinandkeller.dev"
             target="_blank"
