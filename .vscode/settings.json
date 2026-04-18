@@ -5,13 +5,16 @@
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
+    "**/.jj": true,
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
     "**/node_modules": true,
     "**/.next": true,
     "**/*.d.ts": true,
-    "**/yarn.lock": true
+    "**/yarn.lock": true,
+    "**/.yarn": true
   },
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "css.lint.unknownAtRules": "ignore"
 }
