@@ -84,15 +84,20 @@ export default () => {
 
         {/* footer details */}
         <footer className="fixed bottom-0 mb-4 text-xs leading-5 font-light text-slate-400">
-          © ferdinand keller {new Date().getFullYear()} — code available on{" "}
-          <Link
-            href="https://github.com/ferdinandkeller/ferdinandkeller.dev"
-            target="_blank"
-            className="underline"
-          >
-            github
-          </Link>
-          .
+          <span className="whitespace-nowrap">
+            © ferdinand keller {new Date().getFullYear()}
+          </span>
+          <span className="max-[450px]:hidden"> — </span>
+          <span className="max-[450px]:block">
+            code available on{" "}
+            <Link
+              href="https://github.com/ferdinandkeller/ferdinandkeller.dev"
+              target="_blank"
+              className="underline"
+            >
+              github
+            </Link>
+          </span>
         </footer>
       </main>
     </>
