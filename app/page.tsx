@@ -10,18 +10,22 @@ type SectionContentElement = {
 export default () => {
   const projects = [
     {
-      title: "containerised-project-template",
-      description: "create containerized projects in a matter of seconds",
-      link: "https://github.com"
+      title: "html-to-pdf-action",
+      description: "github action to create pdfs from html files",
+      link: "https://github.com/ferdinandkeller/html-to-pdf-action"
     },
     {
       title: "roman-numerals-rs",
       description: "easy from-and-to roman numerals in rust",
-      link: "https://github.com"
+      link: "https://github.com/ferdinandkeller/roman-numerals-rs"
     }
   ]
 
   const articles = [
+    {
+      title: "The simplest hash one can think of",
+      link: "https://medium.com/@ferdinandklr/the-simplest-hash-one-can-think-of-56e0c6e6f382"
+    },
     {
       title:
         "Creating a production-ready self-hosted Kubernetes Cluster from scratch on a VPS (IPv6 compatible!)",
