@@ -23,6 +23,10 @@ export default () => {
 
   const articles = [
     {
+      title: "Throwaway AI Workspaces",
+      link: "https://medium.com/@ferdinandklr/throwaway-ai-workspaces-39f7889cadc5"
+    },
+    {
       title: "The simplest hash one can think of",
       link: "https://medium.com/@ferdinandklr/the-simplest-hash-one-can-think-of-56e0c6e6f382"
     },
